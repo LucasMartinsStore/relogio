@@ -1,6 +1,6 @@
 function currentDate() {
     let date = new Date()
-    let day = date.getDate()
+    let day = date.getDay()
     let hour = date.getHours()
     let min = date.getMinutes()
     let sec = date.getSeconds()
@@ -20,8 +20,8 @@ function currentDate() {
     document.querySelector('#time').innerHTML = `${hour}:${min}`
     document.querySelector('#sec').innerHTML = `${sec}`
     document.querySelector('#med').innerHTML = `${midDay}`
-    document.querySelector('#full_date').innerHTML = `${month_name[month]} ${curr_date} ${year}`
-    showDay[day].style.opacity = 1   
+    document.querySelector('#full-date').innerHTML = `${month_name[month]} ${curr_date} ${year}`
+    showDay[day].style.opacity = '1'  
 }
 
 function updateTime(k) {

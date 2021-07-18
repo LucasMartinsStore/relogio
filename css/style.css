@@ -62,3 +62,9 @@ body{
     opacity: .4;
     font-weight: 600;
 }
+
+/*Full date*/
+span.full-date{
+    font-size: 1.4rem;
+    
+}
